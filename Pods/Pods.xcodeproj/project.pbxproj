@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11A24B0B586A6F502142062E0D9D1997 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2380B33F21E2C2B98618216BFBE67255 /* Foundation.framework */; };
+		259F145BC653501D437564F3874D4EE3 /* MMPopLabelDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F8722041003A8FBDC4340E0CF0A2BE50 /* MMPopLabelDelegate.h */; };
+		36D7CD6F0E6DA60201999CD4AB348A1E /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 217B422C67E18D823F234541F74BAD4B /* Pods-dummy.m */; };
+		68DFDB48A51C5F8636674B923B6A4B4F /* MMLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = F8E0C19AEC0B1B7FAB541A6AC705EC27 /* MMLabel.h */; };
+		7F0FEC35B229A9E0BC5E5FB5BE01BF79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2380B33F21E2C2B98618216BFBE67255 /* Foundation.framework */; };
+		B65DC24B203291F92AB80FC1D357CF02 /* MMPopLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = F177DF7D550EA6455DC1125956AE45C6 /* MMPopLabel.h */; };
+		E2C5C39C4484E4491C4AB2701B65AEC8 /* MMPopLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A656FCBC021E82A2622B50DD031AA2C2 /* MMPopLabel.m */; };
+		E80FA475E7AD9E13FDB7B578645A9774 /* MMLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F099CD49C69D90C199D5F4C5D94B6A /* MMLabel.m */; };
+		FD32016463E97E3DA0FF9612875B2EC5 /* MMPopLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D85FD4456DA7F479294AE19DA5F6B687 /* MMPopLabel-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1755B30667D9FA98D609C008B32064AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74507B30D4983E480F4CDB23AFF68635;
+			remoteInfo = MMPopLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06F099CD49C69D90C199D5F4C5D94B6A /* MMLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMLabel.m; path = Classes/ios/MMLabel.m; sourceTree = "<group>"; };
+		15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		217B422C67E18D823F234541F74BAD4B /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		2380B33F21E2C2B98618216BFBE67255 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3787D1D586AE558CEE1CB7359A0AC7BA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		48083CF69F18418FFF1A77B4F845DB37 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		494F2C1C436BAF20F757E55873B9F9E0 /* MMPopLabel-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MMPopLabel-Private.xcconfig"; sourceTree = "<group>"; };
+		5F3907D70EF0B378D27DD16D6EEEC32C /* libMMPopLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMMPopLabel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		76DBE53579FCA6BA300B851727B93A20 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		7CF6875A943644EAF1E33ADAFA4D797A /* MMPopLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMPopLabel-prefix.pch"; sourceTree = "<group>"; };
+		A656FCBC021E82A2622B50DD031AA2C2 /* MMPopLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMPopLabel.m; path = Classes/ios/MMPopLabel.m; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		D85FD4456DA7F479294AE19DA5F6B687 /* MMPopLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMPopLabel-dummy.m"; sourceTree = "<group>"; };
+		F177DF7D550EA6455DC1125956AE45C6 /* MMPopLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMPopLabel.h; path = Classes/ios/MMPopLabel.h; sourceTree = "<group>"; };
+		F8722041003A8FBDC4340E0CF0A2BE50 /* MMPopLabelDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMPopLabelDelegate.h; path = Classes/ios/MMPopLabelDelegate.h; sourceTree = "<group>"; };
+		F8E0C19AEC0B1B7FAB541A6AC705EC27 /* MMLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMLabel.h; path = Classes/ios/MMLabel.h; sourceTree = "<group>"; };
+		FE1FC0549DD5223F393625024D10260F /* MMPopLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMPopLabel.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E233C992D648CD2B094E0D363470697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A24B0B586A6F502142062E0D9D1997 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842B19CE4A377BE4F68E07EBBA63FD46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F0FEC35B229A9E0BC5E5FB5BE01BF79 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0308CA7BA19D412254622C4E62B1AD47 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE1FC0549DD5223F393625024D10260F /* MMPopLabel.xcconfig */,
+				494F2C1C436BAF20F757E55873B9F9E0 /* MMPopLabel-Private.xcconfig */,
+				D85FD4456DA7F479294AE19DA5F6B687 /* MMPopLabel-dummy.m */,
+				7CF6875A943644EAF1E33ADAFA4D797A /* MMPopLabel-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MMPopLabel";
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2380B33F21E2C2B98618216BFBE67255 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A48AD8C58F6B03998213C89F987BE1D6 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		952EEBFAF8F7E620423C9F156F25A506 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */,
+				BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */,
+				217B422C67E18D823F234541F74BAD4B /* Pods-dummy.m */,
+				641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */,
+				76DBE53579FCA6BA300B851727B93A20 /* Pods.debug.xcconfig */,
+				3787D1D586AE558CEE1CB7359A0AC7BA /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		A48AD8C58F6B03998213C89F987BE1D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E56D68B7E92D05F7FDF705CE0B26DC80 /* MMPopLabel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F3907D70EF0B378D27DD16D6EEEC32C /* libMMPopLabel.a */,
+				48083CF69F18418FFF1A77B4F845DB37 /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				952EEBFAF8F7E620423C9F156F25A506 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E56D68B7E92D05F7FDF705CE0B26DC80 /* MMPopLabel */ = {
+			isa = PBXGroup;
+			children = (
+				F8E0C19AEC0B1B7FAB541A6AC705EC27 /* MMLabel.h */,
+				06F099CD49C69D90C199D5F4C5D94B6A /* MMLabel.m */,
+				F177DF7D550EA6455DC1125956AE45C6 /* MMPopLabel.h */,
+				A656FCBC021E82A2622B50DD031AA2C2 /* MMPopLabel.m */,
+				F8722041003A8FBDC4340E0CF0A2BE50 /* MMPopLabelDelegate.h */,
+				0308CA7BA19D412254622C4E62B1AD47 /* Support Files */,
+			);
+			path = MMPopLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F6B661BE23FBAAB7EAF3441AE3197D69 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68DFDB48A51C5F8636674B923B6A4B4F /* MMLabel.h in Headers */,
+				B65DC24B203291F92AB80FC1D357CF02 /* MMPopLabel.h in Headers */,
+				259F145BC653501D437564F3874D4EE3 /* MMPopLabelDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		74507B30D4983E480F4CDB23AFF68635 /* MMPopLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2935B04F69131AD30B41A04D7A969BA /* Build configuration list for PBXNativeTarget "MMPopLabel" */;
+			buildPhases = (
+				80FB8C8FA0D2337A6286F190DB8457B4 /* Sources */,
+				842B19CE4A377BE4F68E07EBBA63FD46 /* Frameworks */,
+				F6B661BE23FBAAB7EAF3441AE3197D69 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMPopLabel;
+			productName = MMPopLabel;
+			productReference = 5F3907D70EF0B378D27DD16D6EEEC32C /* libMMPopLabel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9517E03ADE8DF8052AB61633E262F9FB /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0528D511F6EC0526903AE77BB4541258 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				DDD14442C8F0F1A59C8C3A73CB9A5B58 /* Sources */,
+				1E233C992D648CD2B094E0D363470697 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95E1C9CDBFC33FFC6FA1D2AE2AD5E191 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 48083CF69F18418FFF1A77B4F845DB37 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74507B30D4983E480F4CDB23AFF68635 /* MMPopLabel */,
+				9517E03ADE8DF8052AB61633E262F9FB /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80FB8C8FA0D2337A6286F190DB8457B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E80FA475E7AD9E13FDB7B578645A9774 /* MMLabel.m in Sources */,
+				FD32016463E97E3DA0FF9612875B2EC5 /* MMPopLabel-dummy.m in Sources */,
+				E2C5C39C4484E4491C4AB2701B65AEC8 /* MMPopLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD14442C8F0F1A59C8C3A73CB9A5B58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D7CD6F0E6DA60201999CD4AB348A1E /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95E1C9CDBFC33FFC6FA1D2AE2AD5E191 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MMPopLabel;
+			target = 74507B30D4983E480F4CDB23AFF68635 /* MMPopLabel */;
+			targetProxy = 1755B30667D9FA98D609C008B32064AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2CBCDA99423641334DC0356E41E93E73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3787D1D586AE558CEE1CB7359A0AC7BA /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		42B1936726D816E8954841BD25488D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 494F2C1C436BAF20F757E55873B9F9E0 /* MMPopLabel-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MMPopLabel/MMPopLabel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		511103F7F15A7E8F83B268EA03462CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B142063DCAF3B6577CD39B41EF5FD9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 494F2C1C436BAF20F757E55873B9F9E0 /* MMPopLabel-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MMPopLabel/MMPopLabel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F4297E7F56CB148EC80A5C9DB3C471C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76DBE53579FCA6BA300B851727B93A20 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0528D511F6EC0526903AE77BB4541258 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4297E7F56CB148EC80A5C9DB3C471C9 /* Debug */,
+				2CBCDA99423641334DC0356E41E93E73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */,
+				511103F7F15A7E8F83B268EA03462CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2935B04F69131AD30B41A04D7A969BA /* Build configuration list for PBXNativeTarget "MMPopLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42B1936726D816E8954841BD25488D91 /* Debug */,
+				7B142063DCAF3B6577CD39B41EF5FD9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
